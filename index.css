@@ -165,8 +165,6 @@
     justify-content: space-around;
     align-items: center;
     margin left: 50px;
-
-
 }
 
 .inf-text {
@@ -197,13 +195,13 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 24px;
 }
 
 .info-p {
     display: flex;
     width: 594px;
     flex-direction: column;
-
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -211,6 +209,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.off-ti {
+    color: #E55473;
 }
 
 .info-btn {
@@ -226,6 +229,7 @@
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
+    border-style: none;
 }
 
 .info-con {
@@ -341,7 +345,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: ;
+
 }
 
 .submit {
@@ -365,7 +369,6 @@
 .btn-sub {
     width: 88px;
     height: 27.429px;
-
     flex-shrink: 0;
     color: #FFF;
     font-family: Lato;
@@ -374,9 +377,59 @@
     font-weight: 700;
     line-height: normal;
     background-color: #E55473;
-
     border-style: none;
     margin-top: 18px;
     margin-left: 30px;
     margin-bottom: 128px;
+}
+
+.footter {
+
+    height: 449px;
+    background: #111010;
+
+
+}
+
+.ft-text {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 128PX;
+}
+
+.ft-pra {
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 450px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.fr-copy {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.s-shop {
+    color: #FFFFFF;
 }
