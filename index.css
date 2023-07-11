@@ -14,6 +14,8 @@
     width: 635px;
     height: 800px;
     flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .adv-containt {
@@ -26,18 +28,18 @@
 .title {
     color: #272727;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 88px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
-.p-title {
+.po-title {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 380;
     line-height: 30px;
     width: 634px;
     padding-top: 32px;
@@ -82,6 +84,8 @@
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .middle-text {
@@ -104,6 +108,7 @@
     width: 310px;
     height: 428px;
     margin: 50px;
+    
 }
 
 .card2 {
@@ -121,6 +126,7 @@
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    
 }
 
 .cards {
@@ -128,7 +134,7 @@
     justify-content: space-around;
 }
 
-.photo-text {
+.photo-text1 {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -139,12 +145,40 @@
     text-decoration-line: underline;
 }
 
+.photo-text2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+}
+
+.photo-text3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
 .img2 {
     margin: 80px;
 }
 
 .img3 {
-    margin: 70px;
+
+    width: 310px;
+    height: 428px;
+    margin: 50px;
+    
 
 }
 
@@ -160,14 +194,58 @@
 
 }
 
+.info-container {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.inf-text {
+    display: flex;
+}
+
+/*info part*/
+
 .inf-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin left: 50px;
+    gap: 50px;
 }
 
-.inf-text {
+.inf-text1 {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    justify-content: space-around;
+    margin-left: 10px;
+    
+}
+
+.delevary-man {
+    padding-left: 50px;
+}
+
+.inf-text2 {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.inf-text3 {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-family: Lato;
@@ -230,6 +308,7 @@
     border-radius: 8px;
     background: #E55473;
     border-style: none;
+    margin-left: -20px;
 }
 
 .info-con {
@@ -335,7 +414,7 @@
 }
 
 .mai-info {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 10px;
     text-decoration: none;
     color: rgba(39, 39, 39, 0.60);
