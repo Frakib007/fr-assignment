@@ -7,6 +7,7 @@
 
     flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 128px;
 }
 
 .img-f {
@@ -185,6 +186,8 @@
     background: rgba(229, 84, 115, 0.05);
     height: 620px;
     margin-top: 128;
+    margin-bottom: 128px;
+
 }
 
 .info-title {
@@ -200,7 +203,7 @@
     display: flex;
     width: 594px;
     flex-direction: column;
-    
+
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -224,11 +227,156 @@
     border-radius: 8px;
     background: #E55473;
 }
-.info-con{
+
+.info-con {
     text-align: center;
+    margin-top: 80px;
 }
-.information{
+
+.information {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+
+.info-im {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-top: 80px;
+}
+
+.insta {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.div3-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 450px;
+    margin-bottom: 45px;
+}
+
+.crd-info {
+    width: 342px;
+    height: 396px;
+
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+}
+
+.div4 {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    background-image: url("./flower asset/rectangle 9.png");
+    margin-left: 40px;
+    margin-bottom: 128px;
+    background-repeat: no-repeat;
+}
+
+.div4-h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 80px;
+}
+
+.div4-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+.div4-input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+
+    margin-left: 320px;
+    margin-top: 100px;
+
+}
+
+.mai-info {
+    margin-top: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: ;
+}
+
+.submit {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+
+.input-btn {
+    display: flex;
+
+}
+
+
+
+.btn-sub {
+    width: 88px;
+    height: 27.429px;
+
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #E55473;
+
+    border-style: none;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-bottom: 128px;
 }
